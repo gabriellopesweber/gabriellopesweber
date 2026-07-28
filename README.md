@@ -98,6 +98,11 @@ O que persigo no código, independente da stack: **reuso antes de criar**, padr�
 <div align="center">
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github_dark/0-profile-details.svg">
+  <img src="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github/0-profile-details.svg" alt="Detalhes do perfil">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github_dark/1-repos-per-language.svg">
   <img height="200" src="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github/1-repos-per-language.svg" alt="Repositórios por linguagem">
 </picture>
@@ -106,6 +111,10 @@ O que persigo no código, independente da stack: **reuso antes de criar**, padr�
   <img height="200" src="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github/2-most-commit-language.svg" alt="Linguagens mais commitadas">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github_dark/3-stats.svg">
+  <img height="200" src="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github/3-stats.svg" alt="Estatísticas gerais">
+</picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github_dark/4-productive-time.svg">
   <img height="200" src="https://raw.githubusercontent.com/gabriellopesweber/gabriellopesweber/main/profile-summary-card-output/github/4-productive-time.svg" alt="Horários mais produtivos">
