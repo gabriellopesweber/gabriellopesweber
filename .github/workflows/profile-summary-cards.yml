@@ -16,10 +16,16 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      # O GITHUB_TOKEN automatico gera os cards de linguagem e horario, mas nao
+      # tem acesso ao GraphQL de contribuicoes do usuario -- sem um PAT, os cards
+      # "0-profile-details" e "3-stats" falham com "Resource not accessible by
+      # integration". Para habilita-los: criar um PAT classico com escopo
+      # read:user e salva-lo como o secret PROFILE_TOKEN neste repositorio.
+      # O fallback abaixo passa a usa-lo sozinho assim que o secret existir.
       - name: Gerar cards do perfil
         uses: vn7n24fzkq/github-profile-summary-cards@v0.11.6
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
